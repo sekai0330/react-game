@@ -1,30 +1,26 @@
-<p align="center"><a href="https://arcomage.github.io/"><img width="250" src="https://raw.githubusercontent.com/arcomage/arcomage-hd/main/assets/logo/logo.svg" alt="ArcoMage HD logo"><br><br><strong>arcomage.github.io</strong></a></p>
-
-<h1 align="center">ArcoMage HD - Open Source Card Game</h1>
-
-**ArcoMage HD** is a web-based, free and open source, remastered 3D clone of 3DO and New World Computing's 2000 PC card game Arcomage, which appeared in the _Might and Magic_ RPG game series.
+<h1 align="center">SEKAI HD - Open Source Card Game</h1>
 
 This non-profit fan-remake of the tower defense, resource management fantasy game is developed by [@tomchen](https://github.com/tomchen) with TypeScript + React + Redux + redux-observable + RxJS + CSS-based animations + WebRTC (see [§ Development](#development)). Please star the repo / follow me to support me.
 
 It's available in 13 languages: English, French, German, Simplified Chinese, Traditional Chinese, Spanish, Italian, Russian, Czech, Polish, Brazilian Portuguese, Japanese, Ukrainian. ([§ Translation Credits](#translation-credits))
 
-It supports latest <a href="https://www.google.com/chrome/" title="Google Chrome"><img src="https://raw.githubusercontent.com/arcomage/arcomage-hd/main/misc/readme_images/browsers/chrome.svg" alt="Google Chrome" width="21px" height="21px"></a> <a href="https://www.mozilla.org/firefox/browsers/" title="Firefox"><img src="https://raw.githubusercontent.com/arcomage/arcomage-hd/main/misc/readme_images/browsers/firefox.svg" alt="Firefox" width="21px" height="21px"></a> <a href="https://www.apple.com/safari/" title="Safari 14+"><img src="https://raw.githubusercontent.com/arcomage/arcomage-hd/main/misc/readme_images/browsers/safari.svg" alt="Safari 14+" width="21px" height="21px"></a> <a href="https://www.microsoft.com/edge" title="Microsoft Edge"><img src="https://raw.githubusercontent.com/arcomage/arcomage-hd/main/misc/readme_images/browsers/edge.svg" alt="Microsoft Edge" width="21px" height="21px"></a> <a href="https://www.opera.com/" title="Opera"><img src="https://raw.githubusercontent.com/arcomage/arcomage-hd/main/misc/readme_images/browsers/opera.svg" alt="Opera" width="21px" height="21px"></a> <a href="https://www.samsung.com/us/support/owners/app/samsung-internet" title="Samsung Internet"><img src="https://raw.githubusercontent.com/arcomage/arcomage-hd/main/misc/readme_images/browsers/samsung_internet.svg" alt="Samsung Internet" width="21px" height="21px"></a> and other modern browsers. It works best in Chrome and Chrome's Blink engine-based browsers, and may or may not have performance issues in Safari & Firefox ([browser list](#browser-list)). Safari, Firefox, IE users can use [the Desktop Version](#desktop-version) instead. Read [What to do if the game is slow](https://github.com/arcomage/arcomage-hd/issues/66) for detailed solutions.
+It supports latest <a href="https://www.google.com/chrome/" title="Google Chrome"><img src="https://raw.githubusercontent.com/sekai0330/react-game/main/misc/readme_images/browsers/chrome.svg" alt="Google Chrome" width="21px" height="21px"></a> <a href="https://www.mozilla.org/firefox/browsers/" title="Firefox"><img src="https://raw.githubusercontent.com/sekai0330/react-game/main/misc/readme_images/browsers/firefox.svg" alt="Firefox" width="21px" height="21px"></a> <a href="https://www.apple.com/safari/" title="Safari 14+"><img src="https://raw.githubusercontent.com/sekai0330/react-game/main/misc/readme_images/browsers/safari.svg" alt="Safari 14+" width="21px" height="21px"></a> <a href="https://www.microsoft.com/edge" title="Microsoft Edge"><img src="https://raw.githubusercontent.com/sekai0330/react-game/main/misc/readme_images/browsers/edge.svg" alt="Microsoft Edge" width="21px" height="21px"></a> <a href="https://www.opera.com/" title="Opera"><img src="https://raw.githubusercontent.com/sekai0330/react-game/main/misc/readme_images/browsers/opera.svg" alt="Opera" width="21px" height="21px"></a> <a href="https://www.samsung.com/us/support/owners/app/samsung-internet" title="Samsung Internet"><img src="https://raw.githubusercontent.com/sekai0330/react-game/main/misc/readme_images/browsers/samsung_internet.svg" alt="Samsung Internet" width="21px" height="21px"></a> and other modern browsers. It works best in Chrome and Chrome's Blink engine-based browsers, and may or may not have performance issues in Safari & Firefox ([browser list](#browser-list)). Safari, Firefox, IE users can use [the Desktop Version](#desktop-version) instead. Read [What to do if the game is slow](https://github.com/sekai0330/react-game/issues/66) for detailed solutions.
 
 It supports desktop / tablet / mobile screen 🖥️💻📱. [It's a PWA, meaning you can install it and play it offline](#play-it-offline-pwa). It also has good [accessibility for disabled people](#keyboard-control--accessibility).
 
 By default, you play against computer AI 🤖 in the Single Player Mode. You can switch to [Multiplayer Mode 🧑‍🤝‍🧑](#multiplayer-mode). Note that Multiplayer Mode doesn't work if both players are behind "bad", symmetric NAT ([detect your NAT type](https://tomchen.github.io/symmetric-nat-test/)). Click gear ⚙️ icon in the game to open the "Preferences" window so you can switch to Multiplayer Mode or change other settings.
 
-<p align="center"><a href="https://arcomage.github.io/"><strong>Click to play it now</strong><br><br><img src="https://raw.githubusercontent.com/arcomage/arcomage-hd/main/assets/misc/ogimage.jpg" alt="ArcoMage HD screenshot"></a></p>
+<p align="center"><a href="https://sekai0330.github.io/"><strong>Click to play it now</strong><br><br><img src="https://raw.githubusercontent.com/sekai0330/react-game/main/assets/misc/ogimage.jpg" alt="sekai0330 HD screenshot"></a></p>
 
 <p align="center">
-<a href="https://github.com/arcomage/arcomage-hd/blob/main/CHANGELOG.md"><img src="https://img.shields.io/github/package-json/v/arcomage/arcomage-hd" alt="version number"></a>
-<a href="https://github.com/arcomage/arcomage-hd/actions/workflows/test.yml"><img src="https://github.com/arcomage/arcomage-hd//workflows/Test/badge.svg" alt="Actions Status"></a>
-<a href="https://github.com/arcomage/arcomage-hd/blob/main/CREDIT.md"><img src="https://img.shields.io/badge/license-MIT-brightgreen" alt="License"></a>
+<a href="https://github.com/sekai0330/react-game/blob/main/CHANGELOG.md"><img src="https://img.shields.io/github/package-json/v/sekai0330/react-game" alt="version number"></a>
+<a href="https://github.com/sekai0330/react-game/actions/workflows/test.yml"><img src="https://github.com/sekai0330/react-game//workflows/Test/badge.svg" alt="Actions Status"></a>
+<a href="https://github.com/sekai0330/react-game/blob/main/CREDIT.md"><img src="https://img.shields.io/badge/license-MIT-brightgreen" alt="License"></a>
 </p>
 
 ## Gameplay
 
-<p align="center"><img src="https://raw.githubusercontent.com/arcomage/arcomage-hd/main/misc/readme_images/manual.jpg" alt="ArcoMage HD Manual Image"></a></p>
+<p align="center"><img src="https://raw.githubusercontent.com/sekai0330/react-game/main/misc/readme_images/manual.jpg" alt="sekai0330 HD Manual Image"></a></p>
 
 <details><summary><strong>Click to show game rules in text form</strong></summary>
 
@@ -42,19 +38,19 @@ By default, you play against computer AI 🤖 in the Single Player Mode. You can
 
 The image and sound files, as well as the card and language settings, are automatically stored in your browser. In addition, you can install this "Progressive Web App" (PWA) on your computer or smartphone. Please refer to [Google Chrome's article](https://support.google.com/chrome/answer/9658361) and [Mozilla's article](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Installing) on how to install a PWA.
 
-Depending on your browser, you may need to press <kbd>Ctrl</kbd> + <kbd>F5</kbd> to clear the cache files & reload arcomage.github.io webpage to have the latest version of the game.
+Depending on your browser, you may need to press <kbd>Ctrl</kbd> + <kbd>F5</kbd> to clear the cache files & reload sekai0330.github.io webpage to have the latest version of the game.
 
 PWA or not, some mobile browsers do not remove top and bottom bars in fullscreen mode but it is usually configurable.
 
 ## Desktop Version
 
-**If you don't have performance issues playing ArcoMage HD in your browser, then you don't need the Desktop Version.**
+**If you don't have performance issues playing sekai0330 HD in your browser, then you don't need the Desktop Version.**
 
-Some browsers, such as Firefox and Safari, that are not Chrome's engine based, may (or may not) be a bit slow running ArcoMage HD. In this case, you can use the Desktop Version.
+Some browsers, such as Firefox and Safari, that are not Chrome's engine based, may (or may not) be a bit slow running sekai0330 HD. In this case, you can use the Desktop Version.
 
-The Desktop Version is **merely a Google Chrome browser-like wrapper** that visits the URL [https://arcomage.github.io/](https://arcomage.github.io/).
+The Desktop Version is **merely a Google Chrome browser-like wrapper** that visits the URL [https://sekai0330.github.io/](https://sekai0330.github.io/).
 
-[Click to download the Desktop Version (Windows)](https://github.com/arcomage/arcomage-hd/releases/download/v1.0.0-beta.26/ArcoMage.HD.Setup.1.0.0.7z)
+[Click to download the Desktop Version (Windows)](https://github.com/sekai0330/react-game/releases/download/v1.0.0-beta.26/sekai0330.HD.Setup.1.0.0.7z)
 
 ### Browser List
 
@@ -62,7 +58,7 @@ The Desktop Version is **merely a Google Chrome browser-like wrapper** that visi
 
 _(\*: presumably so, though I didn't really test)_
 
-🏆 Browsers based on Chrome's engine, [Blink](https://www.chromium.org/blink), are fully supported by ArcoMage HD (as of 2021). With an average CPU / GPU, you should be able to play the game without performance issues. You don't need ArcoMage HD's Desktop Version:
+🏆 Browsers based on Chrome's engine, [Blink](https://www.chromium.org/blink), are fully supported by sekai0330 HD (as of 2021). With an average CPU / GPU, you should be able to play the game without performance issues. You don't need sekai0330 HD's Desktop Version:
 
 - Google Chromium
 - Google Chrome
@@ -90,9 +86,9 @@ _(\*: presumably so, though I didn't really test)_
 - Puffin Browser \*
 - etc.
 
-_(If your Chrome-based browser does have performance issues, then the Desktop Version which is a Chrome wrapper cannot help, read the solutions in [What to do if the game is slow](https://github.com/arcomage/arcomage-hd/issues/66))_
+_(If your Chrome-based browser does have performance issues, then the Desktop Version which is a Chrome wrapper cannot help, read the solutions in [What to do if the game is slow](https://github.com/sekai0330/react-game/issues/66))_
 
-✅ Browsers based on Firefox's [Gecko](https://hg.mozilla.org/), Safari's [WebKit](https://webkit.org/) and [Qt WebEngine](https://wiki.qt.io/QtWebEngine) rendering engines, are tested and can be used to play the game, but they may be slightly slower than Chrome-based browser, although it depends on your CPU / GPU. If you find these browsers slow, you may try ArcoMage HD's Desktop Version instead:
+✅ Browsers based on Firefox's [Gecko](https://hg.mozilla.org/), Safari's [WebKit](https://webkit.org/) and [Qt WebEngine](https://wiki.qt.io/QtWebEngine) rendering engines, are tested and can be used to play the game, but they may be slightly slower than Chrome-based browser, although it depends on your CPU / GPU. If you find these browsers slow, you may try sekai0330 HD's Desktop Version instead:
 
 - Firefox
   - Pale Moon \*
@@ -107,7 +103,7 @@ _(If your Chrome-based browser does have performance issues, then the Desktop Ve
   - Dooble \*
   - etc.
 
-❌ Browsers with other rendering engines are not supported, you must change to a Chrome-based browser or use ArcoMage HD's Desktop Version instead:
+❌ Browsers with other rendering engines are not supported, you must change to a Chrome-based browser or use sekai0330 HD's Desktop Version instead:
 
 - Microsoft Internet Explorer (IE)
 - Microsoft Edge (old version, before 2019) \*
@@ -126,9 +122,9 @@ _(If your Chrome-based browser does have performance issues, then the Desktop Ve
 
 <details><summary><strong>Click to show other remarks on the desktop version</strong></summary>
 
-The Desktop Version is not expected to be updated. The Desktop Version's version number is different from ArcoMage HD's. Actually the Desktop Version may stay at v1.0.0 forever unless there's really something to update.
+The Desktop Version is not expected to be updated. The Desktop Version's version number is different from sekai0330 HD's. Actually the Desktop Version may stay at v1.0.0 forever unless there's really something to update.
 
-The first time you run ArcoMage HD Desktop Version, it downloads all the images and sound files silently. You should wait maybe 1 minute (depending on your Internet speed), before you can cut off Internet and play it completely offline.
+The first time you run sekai0330 HD Desktop Version, it downloads all the images and sound files silently. You should wait maybe 1 minute (depending on your Internet speed), before you can cut off Internet and play it completely offline.
 
 If you install both Google Chrome and the Desktop Version, the Desktop Version will have independent storage. Clearing your Google Chrome's stored data will not reset the Desktop Version's settings.
 
@@ -180,10 +176,10 @@ It could be other key instead of <kbd>Alt</kbd>
 The game is [screen-reader](https://en.wikipedia.org/wiki/Screen_reader) compatible. It also supports [Reduce Motion (aka. "Show / Turn off animations")](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion#user_preferences) preference available in most operating systems and browsers.
 
 <p align="center">
-<a href="https://arcomage.github.io/" title="Blind Friendly"><img src="https://img.shields.io/badge/-Blind%20Friendly-black" alt="Blind Friendly"></a>
-<a href="https://arcomage.github.io/" title="Color Blind Friendly"><img src="https://img.shields.io/badge/-Color%20Blind%20Friendly-white" alt="Color Blind Friendly"></a>
-<a href="https://arcomage.github.io/" title="Deaf Friendly"><img src="https://img.shields.io/badge/-Deaf%20Friendly-purple" alt="Deaf Friendly"></a>
-<a href="https://arcomage.github.io/" title="Motion Sickness Friendly"><img src="https://img.shields.io/badge/-Motion%20Sickness%20Friendly-yellow" alt="Motion Sickness Friendly"></a>
+<a href="https://sekai0330.github.io/" title="Blind Friendly"><img src="https://img.shields.io/badge/-Blind%20Friendly-black" alt="Blind Friendly"></a>
+<a href="https://sekai0330.github.io/" title="Color Blind Friendly"><img src="https://img.shields.io/badge/-Color%20Blind%20Friendly-white" alt="Color Blind Friendly"></a>
+<a href="https://sekai0330.github.io/" title="Deaf Friendly"><img src="https://img.shields.io/badge/-Deaf%20Friendly-purple" alt="Deaf Friendly"></a>
+<a href="https://sekai0330.github.io/" title="Motion Sickness Friendly"><img src="https://img.shields.io/badge/-Motion%20Sickness%20Friendly-yellow" alt="Motion Sickness Friendly"></a>
 </p>
 
 ## Multiplayer Mode
@@ -215,35 +211,35 @@ Because currently the game uses no [TURN](https://en.wikipedia.org/wiki/Traversa
 The stack:
 
 <p align="center">
-<a href="https://www.typescriptlang.org/" title="Typescript"><img src="https://raw.githubusercontent.com/arcomage/arcomage-hd/main/misc/readme_images/stack/typescript-icon.svg" alt="Typescript" width="21px" height="21px"></a>
-<a href="https://reactjs.org/" title="React"><img src="https://raw.githubusercontent.com/arcomage/arcomage-hd/main/misc/readme_images/stack/react.svg" alt="React" width="21px" height="21px"></a>
-<a href="https://redux.js.org/" title="Redux"><img src="https://raw.githubusercontent.com/arcomage/arcomage-hd/main/misc/readme_images/stack/redux.svg" alt="Redux" width="21px" height="21px"></a>
-<a href="https://github.com/redux-observable/redux-observable" title="redux-observable"><img src="https://raw.githubusercontent.com/arcomage/arcomage-hd/main/misc/readme_images/stack/redux-observable.svg" alt="redux-observable" width="21px" height="21px"></a>
-<a href="https://rxjs.dev/" title="RxJS (ReactiveX)"><img src="https://raw.githubusercontent.com/arcomage/arcomage-hd/main/misc/readme_images/stack/reactivex.svg" alt="RxJS (ReactiveX)" width="21px" height="21px"></a>
-<a href="https://webrtc.org/" title="WebRTC"><img src="https://raw.githubusercontent.com/arcomage/arcomage-hd/main/misc/readme_images/stack/webrtc.svg" alt="WebRTC" width="21px" height="21px"></a>
-<a href="https://developers.google.com/web/tools/workbox" title="Workbox"><img src="https://raw.githubusercontent.com/arcomage/arcomage-hd/main/misc/readme_images/stack/workbox-icon.svg" alt="Workbox" width="21px" height="21px"></a>
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="JavaScript"><img src="https://raw.githubusercontent.com/arcomage/arcomage-hd/main/misc/readme_images/stack/javascript.svg" alt="JavaScript" width="21px" height="21px"></a>
-<a href="https://tc39.es/ecma262/" title="ECMAScript 6+"><img src="https://raw.githubusercontent.com/arcomage/arcomage-hd/main/misc/readme_images/stack/es6.svg" alt="ECMAScript 6+" width="21px" height="21px"></a>
-<a href="https://sass-lang.com/" title="Sass"><img src="https://raw.githubusercontent.com/arcomage/arcomage-hd/main/misc/readme_images/stack/sass.svg" alt="Sass" width="21px" height="21px"></a>
-<a href="https://tailwindcss.com/" title="Tailwind CSS"><img src="https://raw.githubusercontent.com/arcomage/arcomage-hd/main/misc/readme_images/stack/tailwindcss-icon.svg" alt="Tailwind CSS" width="21px" height="21px"></a>
-<a href="https://material-ui.com/" title="Material-UI"><img src="https://raw.githubusercontent.com/arcomage/arcomage-hd/main/misc/readme_images/stack/material-ui.svg" alt="Material-UI" width="21px" height="21px"></a>
-<a href="https://webpack.js.org/" title="webpack"><img src="https://raw.githubusercontent.com/arcomage/arcomage-hd/main/misc/readme_images/stack/webpack.svg" alt="webpack" width="21px" height="21px"></a>
-<a href="https://jestjs.io/" title="Jest"><img src="https://raw.githubusercontent.com/arcomage/arcomage-hd/main/misc/readme_images/stack/jest.svg" alt="Jest" width="21px" height="21px"></a>
-<a href="https://github.com/enzymejs/enzyme" title="Enzyme"><img src="https://raw.githubusercontent.com/arcomage/arcomage-hd/main/misc/readme_images/stack/enzyme.svg" alt="Enzyme" width="21px" height="21px"></a>
-<a href="https://testing-library.com/" title="Testing Library"><img src="https://raw.githubusercontent.com/arcomage/arcomage-hd/main/misc/readme_images/stack/testing-library.svg" alt="Testing Library" width="21px" height="21px"></a>
-<a href="https://istanbul.js.org/" title="Istanbul"><img src="https://raw.githubusercontent.com/arcomage/arcomage-hd/main/misc/readme_images/stack/istanbul.svg" alt="Istanbul" width="21px" height="21px"></a>
-<a href="https://codecov.io/" title="Codecov"><img src="https://raw.githubusercontent.com/arcomage/arcomage-hd/main/misc/readme_images/stack/codecov.svg" alt="Codecov" width="21px" height="21px"></a>
-<a href="https://cssinjs.org/" title="JSS"><img src="https://raw.githubusercontent.com/arcomage/arcomage-hd/main/misc/readme_images/stack/jss.svg" alt="JSS" width="21px" height="21px"></a>
-<a href="https://prettier.io/" title="Prettier"><img src="https://raw.githubusercontent.com/arcomage/arcomage-hd/main/misc/readme_images/stack/prettier.svg" alt="Prettier" width="21px" height="21px"></a>
-<a href="https://eslint.org/" title="ESLint"><img src="https://raw.githubusercontent.com/arcomage/arcomage-hd/main/misc/readme_images/stack/eslint.svg" alt="ESLint" width="21px" height="21px"></a>
-<a href="https://github.com/postcss/postcss" title="PostCSS"><img src="https://raw.githubusercontent.com/arcomage/arcomage-hd/main/misc/readme_images/stack/postcss.svg" alt="PostCSS" width="21px" height="21px"></a>
-<a href="https://github.com/postcss/autoprefixer" title="Autoprefixer"><img src="https://raw.githubusercontent.com/arcomage/arcomage-hd/main/misc/readme_images/stack/autoprefixer.svg" alt="Autoprefixer" width="21px" height="21px"></a>
-<a href="https://code.visualstudio.com/" title="Visual Studio Code"><img src="https://raw.githubusercontent.com/arcomage/arcomage-hd/main/misc/readme_images/stack/visual-studio-code.svg" alt="Visual Studio Code" width="21px" height="21px"></a>
-<a href="https://yarnpkg.com/" title="yarn v1"><img src="https://raw.githubusercontent.com/arcomage/arcomage-hd/main/misc/readme_images/stack/yarn.svg" alt="yarn v1" width="21px" height="21px"></a>
-<a href="https://howlerjs.com/" title="howler.js"><img src="https://raw.githubusercontent.com/arcomage/arcomage-hd/main/misc/readme_images/stack/howler.svg" alt="howler.js" width="21px" height="21px"></a>
-<a href="https://inkscape.org/" title="Inkscape"><img src="https://raw.githubusercontent.com/arcomage/arcomage-hd/main/misc/readme_images/stack/inkscape.svg" alt="Inkscape" width="21px" height="21px"></a>
-<a href="https://www.adobe.com/products/illustrator.html" title="Adobe Illustrator"><img src="https://raw.githubusercontent.com/arcomage/arcomage-hd/main/misc/readme_images/stack/adobe-illustrator.svg" alt="Adobe Illustrator" width="21px" height="21px"></a>
-<a href="https://www.adobe.com/products/photoshop.html" title="Adobe Photoshop"><img src="https://raw.githubusercontent.com/arcomage/arcomage-hd/main/misc/readme_images/stack/adobe-photoshop.svg" alt="Adobe Photoshop" width="21px" height="21px"></a>
+<a href="https://www.typescriptlang.org/" title="Typescript"><img src="https://raw.githubusercontent.com/sekai0330/react-game/main/misc/readme_images/stack/typescript-icon.svg" alt="Typescript" width="21px" height="21px"></a>
+<a href="https://reactjs.org/" title="React"><img src="https://raw.githubusercontent.com/sekai0330/react-game/main/misc/readme_images/stack/react.svg" alt="React" width="21px" height="21px"></a>
+<a href="https://redux.js.org/" title="Redux"><img src="https://raw.githubusercontent.com/sekai0330/react-game/main/misc/readme_images/stack/redux.svg" alt="Redux" width="21px" height="21px"></a>
+<a href="https://github.com/redux-observable/redux-observable" title="redux-observable"><img src="https://raw.githubusercontent.com/sekai0330/react-game/main/misc/readme_images/stack/redux-observable.svg" alt="redux-observable" width="21px" height="21px"></a>
+<a href="https://rxjs.dev/" title="RxJS (ReactiveX)"><img src="https://raw.githubusercontent.com/sekai0330/react-game/main/misc/readme_images/stack/reactivex.svg" alt="RxJS (ReactiveX)" width="21px" height="21px"></a>
+<a href="https://webrtc.org/" title="WebRTC"><img src="https://raw.githubusercontent.com/sekai0330/react-game/main/misc/readme_images/stack/webrtc.svg" alt="WebRTC" width="21px" height="21px"></a>
+<a href="https://developers.google.com/web/tools/workbox" title="Workbox"><img src="https://raw.githubusercontent.com/sekai0330/react-game/main/misc/readme_images/stack/workbox-icon.svg" alt="Workbox" width="21px" height="21px"></a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="JavaScript"><img src="https://raw.githubusercontent.com/sekai0330/react-game/main/misc/readme_images/stack/javascript.svg" alt="JavaScript" width="21px" height="21px"></a>
+<a href="https://tc39.es/ecma262/" title="ECMAScript 6+"><img src="https://raw.githubusercontent.com/sekai0330/react-game/main/misc/readme_images/stack/es6.svg" alt="ECMAScript 6+" width="21px" height="21px"></a>
+<a href="https://sass-lang.com/" title="Sass"><img src="https://raw.githubusercontent.com/sekai0330/react-game/main/misc/readme_images/stack/sass.svg" alt="Sass" width="21px" height="21px"></a>
+<a href="https://tailwindcss.com/" title="Tailwind CSS"><img src="https://raw.githubusercontent.com/sekai0330/react-game/main/misc/readme_images/stack/tailwindcss-icon.svg" alt="Tailwind CSS" width="21px" height="21px"></a>
+<a href="https://material-ui.com/" title="Material-UI"><img src="https://raw.githubusercontent.com/sekai0330/react-game/main/misc/readme_images/stack/material-ui.svg" alt="Material-UI" width="21px" height="21px"></a>
+<a href="https://webpack.js.org/" title="webpack"><img src="https://raw.githubusercontent.com/sekai0330/react-game/main/misc/readme_images/stack/webpack.svg" alt="webpack" width="21px" height="21px"></a>
+<a href="https://jestjs.io/" title="Jest"><img src="https://raw.githubusercontent.com/sekai0330/react-game/main/misc/readme_images/stack/jest.svg" alt="Jest" width="21px" height="21px"></a>
+<a href="https://github.com/enzymejs/enzyme" title="Enzyme"><img src="https://raw.githubusercontent.com/sekai0330/react-game/main/misc/readme_images/stack/enzyme.svg" alt="Enzyme" width="21px" height="21px"></a>
+<a href="https://testing-library.com/" title="Testing Library"><img src="https://raw.githubusercontent.com/sekai0330/react-game/main/misc/readme_images/stack/testing-library.svg" alt="Testing Library" width="21px" height="21px"></a>
+<a href="https://istanbul.js.org/" title="Istanbul"><img src="https://raw.githubusercontent.com/sekai0330/react-game/main/misc/readme_images/stack/istanbul.svg" alt="Istanbul" width="21px" height="21px"></a>
+<a href="https://codecov.io/" title="Codecov"><img src="https://raw.githubusercontent.com/sekai0330/react-game/main/misc/readme_images/stack/codecov.svg" alt="Codecov" width="21px" height="21px"></a>
+<a href="https://cssinjs.org/" title="JSS"><img src="https://raw.githubusercontent.com/sekai0330/react-game/main/misc/readme_images/stack/jss.svg" alt="JSS" width="21px" height="21px"></a>
+<a href="https://prettier.io/" title="Prettier"><img src="https://raw.githubusercontent.com/sekai0330/react-game/main/misc/readme_images/stack/prettier.svg" alt="Prettier" width="21px" height="21px"></a>
+<a href="https://eslint.org/" title="ESLint"><img src="https://raw.githubusercontent.com/sekai0330/react-game/main/misc/readme_images/stack/eslint.svg" alt="ESLint" width="21px" height="21px"></a>
+<a href="https://github.com/postcss/postcss" title="PostCSS"><img src="https://raw.githubusercontent.com/sekai0330/react-game/main/misc/readme_images/stack/postcss.svg" alt="PostCSS" width="21px" height="21px"></a>
+<a href="https://github.com/postcss/autoprefixer" title="Autoprefixer"><img src="https://raw.githubusercontent.com/sekai0330/react-game/main/misc/readme_images/stack/autoprefixer.svg" alt="Autoprefixer" width="21px" height="21px"></a>
+<a href="https://code.visualstudio.com/" title="Visual Studio Code"><img src="https://raw.githubusercontent.com/sekai0330/react-game/main/misc/readme_images/stack/visual-studio-code.svg" alt="Visual Studio Code" width="21px" height="21px"></a>
+<a href="https://yarnpkg.com/" title="yarn v1"><img src="https://raw.githubusercontent.com/sekai0330/react-game/main/misc/readme_images/stack/yarn.svg" alt="yarn v1" width="21px" height="21px"></a>
+<a href="https://howlerjs.com/" title="howler.js"><img src="https://raw.githubusercontent.com/sekai0330/react-game/main/misc/readme_images/stack/howler.svg" alt="howler.js" width="21px" height="21px"></a>
+<a href="https://inkscape.org/" title="Inkscape"><img src="https://raw.githubusercontent.com/sekai0330/react-game/main/misc/readme_images/stack/inkscape.svg" alt="Inkscape" width="21px" height="21px"></a>
+<a href="https://www.adobe.com/products/illustrator.html" title="Adobe Illustrator"><img src="https://raw.githubusercontent.com/sekai0330/react-game/main/misc/readme_images/stack/adobe-illustrator.svg" alt="Adobe Illustrator" width="21px" height="21px"></a>
+<a href="https://www.adobe.com/products/photoshop.html" title="Adobe Photoshop"><img src="https://raw.githubusercontent.com/sekai0330/react-game/main/misc/readme_images/stack/adobe-photoshop.svg" alt="Adobe Photoshop" width="21px" height="21px"></a>
 </p>
 
 [TypeScript](https://www.typescriptlang.org/) + [React](https://reactjs.org/) + [Redux](https://redux.js.org/) + [redux-observable](https://redux-observable.js.org/) + [RxJS](https://rxjs.dev/). [PWA](https://web.dev/progressive-web-apps/) (using [Workbox](https://developers.google.com/web/tools/workbox)).
@@ -254,54 +250,54 @@ P2P Multiplayer Mode without server (only uses [STUN](https://en.wikipedia.org/w
 
 Stereo sound. WebP & SVG images; images upscaled with the library [waifu2x](https://github.com/nagadomi/waifu2x) / [waifu2x-caffe](https://github.com/lltcggie/waifu2x-caffe). Card text extracted with the OCR library [tesseract.js](https://tesseract.projectnaptha.com/).
 
-Dev scripts / tools are in the [`tools` folder](https://github.com/arcomage/arcomage-hd/tree/main/tools), see also [dev notes](https://github.com/arcomage/arcomage-hd/blob/main/devnotes.md) and `scripts` section in [`package.json`](https://github.com/arcomage/arcomage-hd/blob/main/package.json). [yarn](https://yarnpkg.com/) v1 is the package manager to use.
+Dev scripts / tools are in the [`tools` folder](https://github.com/sekai0330/react-game/tree/main/tools), see also [dev notes](https://github.com/sekai0330/react-game/blob/main/devnotes.md) and `scripts` section in [`package.json`](https://github.com/sekai0330/react-game/blob/main/package.json). [yarn](https://yarnpkg.com/) v1 is the package manager to use.
 
 <p align="center">
-<a href="https://codecov.io/gh/arcomage/arcomage-hd" title="Codecov"><img src="https://codecov.io/gh/arcomage/arcomage-hd/branch/main/graph/badge.svg?token=5rrZ38jtVr" alt="Codecov"></a>
+<a href="https://codecov.io/gh/sekai0330/react-game" title="Codecov"><img src="https://codecov.io/gh/sekai0330/react-game/branch/main/graph/badge.svg?token=5rrZ38jtVr" alt="Codecov"></a>
 </p>
 
-<p align="center"><a href="https://developers.google.com/web/tools/lighthouse" title="Google Lighthouse"><img src="https://raw.githubusercontent.com/arcomage/arcomage-hd/main/misc/readme_images/stack/lighthouse.svg" alt="Google Lighthouse" width="32px" height="32px"></a><br>Google Lighthouse score<br><a href="https://github.com/arcomage/arcomage-hd/issues/41"><img src="https://raw.githubusercontent.com/arcomage/arcomage-hd/main/misc/readme_images/lighthouse_score.png" alt="ArcoMage HD Google Lighthouse score"></a></p>
+<p align="center"><a href="https://developers.google.com/web/tools/lighthouse" title="Google Lighthouse"><img src="https://raw.githubusercontent.com/sekai0330/react-game/main/misc/readme_images/stack/lighthouse.svg" alt="Google Lighthouse" width="32px" height="32px"></a><br>Google Lighthouse score<br><a href="https://github.com/sekai0330/react-game/issues/41"><img src="https://raw.githubusercontent.com/sekai0330/react-game/main/misc/readme_images/lighthouse_score.png" alt="sekai0330 HD Google Lighthouse score"></a></p>
 
 ## Changelog & To Do
 
-[To-do list](https://github.com/arcomage/arcomage-hd/projects/1)
+[To-do list](https://github.com/sekai0330/react-game/projects/1)
 
 [Changelog file](CHANGELOG.md)
 
 ## Translation Credits
 
-- [Cards](https://github.com/arcomage/arcomage-hd/tree/main/src/i18n/cards): extracted from _Might and Magic VIII_ & _VI_ original games (or translated/retranslated) by:
-  - English (`en`): [Black Rabite on GameFAQs](https://gamefaqs.gamespot.com/pc/929601-arcomage/faqs/44131)
+- [Cards](https://github.com/sekai0330/react-game/tree/main/src/i18n/cards): extracted from _Might and Magic VIII_ & _VI_ original games (or translated/retranslated) by:
+  - English (`en`): [Black Rabite on GameFAQs](https://gamefaqs.gamespot.com/pc/929601-sekai0330/faqs/44131)
   - Russian (`ru`) (retranslated): [rayburn](https://github.com/TombOfVARN)
-  - Simplified Chinese (`zh-Hans`): (extracted) [Liar-zzy](https://github.com/Liar-zzy/Arcomage/blob/master/Arcomage.cpp), (fixed/retranslated) [Tom Chen](https://github.com/tomchen)
-  - Polish (`pl`) (retranslated): [acidcave](https://www.arcomage.acidcave.net/czerwone_karty.html)
+  - Simplified Chinese (`zh-Hans`): (extracted) [Liar-zzy](https://github.com/Liar-zzy/sekai0330/blob/master/sekai0330.cpp), (fixed/retranslated) [Tom Chen](https://github.com/tomchen)
+  - Polish (`pl`) (retranslated): [acidcave](https://www.sekai0330.acidcave.net/czerwone_karty.html)
   - Czech (`cs`): Yym
   - Brazilian Portuguese (`pt-BR`) (translated): [mateuscv](https://github.com/mateuscv)
   - Japanese (`ja`) (translated): [Tom Chen](https://github.com/tomchen) with the help of [Google Translate](https://translate.google.com/) & [DeepL](https://www.deepl.com/translator)
   - Ukrainian (`uk`) (translated): [troyane](https://github.com/troyane)
-  - All others: [Tom Chen](https://github.com/tomchen) with OCR tool [tesseract.js](https://tesseract.projectnaptha.com/) & [other scripts](https://github.com/arcomage/arcomage-hd/tree/main/tools)
-  - Traditional Chinese (`zh-Hant`): converted from `zh-Hans` by [Tom Chen](https://github.com/tomchen) with [his scripts](https://github.com/arcomage/arcomage-hd/tree/main/tools/zhconvert) using [opencc-js](https://github.com/nk2028/opencc-js)
-- [Main](https://github.com/arcomage/arcomage-hd/tree/main/src/i18n/main) string translators (some are from the original games):
+  - All others: [Tom Chen](https://github.com/tomchen) with OCR tool [tesseract.js](https://tesseract.projectnaptha.com/) & [other scripts](https://github.com/sekai0330/react-game/tree/main/tools)
+  - Traditional Chinese (`zh-Hant`): converted from `zh-Hans` by [Tom Chen](https://github.com/tomchen) with [his scripts](https://github.com/sekai0330/react-game/tree/main/tools/zhconvert) using [opencc-js](https://github.com/nk2028/opencc-js)
+- [Main](https://github.com/sekai0330/react-game/tree/main/src/i18n/main) string translators (some are from the original games):
   - Russian (`ru`): [rayburn](https://github.com/TombOfVARN)
   - Polish (`pl`): (partially by) Plamcia
   - Brazilian Portuguese (`pt-BR`): [mateuscv](https://github.com/mateuscv)
   - Ukrainian (`uk`): [troyane](https://github.com/troyane)
   - All others: [Tom Chen](https://github.com/tomchen) by himself and/or with the help of [Google Translate](https://translate.google.com/) & [DeepL](https://www.deepl.com/translator)
-  - Traditional Chinese (`zh-Hant`): converted from `zh-Hans` by [Tom Chen](https://github.com/tomchen) with [his scripts](https://github.com/arcomage/arcomage-hd/tree/main/tools/zhconvert) using [opencc-js](https://github.com/nk2028/opencc-js)
-- [Taverns](https://github.com/arcomage/arcomage-hd/tree/main/src/i18n/taverns): extracted from _Might and Magic VIII_ & _VI_ original games by [Tom Chen](https://github.com/tomchen) with [his script](https://github.com/arcomage/arcomage-hd/tree/main/tools/i18n-extraction). Except for:
+  - Traditional Chinese (`zh-Hant`): converted from `zh-Hans` by [Tom Chen](https://github.com/tomchen) with [his scripts](https://github.com/sekai0330/react-game/tree/main/tools/zhconvert) using [opencc-js](https://github.com/nk2028/opencc-js)
+- [Taverns](https://github.com/sekai0330/react-game/tree/main/src/i18n/taverns): extracted from _Might and Magic VIII_ & _VI_ original games by [Tom Chen](https://github.com/tomchen) with [his script](https://github.com/sekai0330/react-game/tree/main/tools/i18n-extraction). Except for:
   - Brazilian Portuguese (`pt-BR`) (translated): [mateuscv](https://github.com/mateuscv)
   - Japanese (`ja`) (translated): [Tom Chen](https://github.com/tomchen) with the help of [Google Translate](https://translate.google.com/) & [DeepL](https://www.deepl.com/translator)
   - Ukrainian (`uk`) (translated): [troyane](https://github.com/troyane)
 
-_See also [I18N Issue Page](https://github.com/arcomage/arcomage-hd/issues/9)_
+_See also [I18N Issue Page](https://github.com/sekai0330/react-game/issues/9)_
 
-## Arcomage original game
+## sekai0330 original game
 
-Arcomage was initially developed by Stickman Games and later sold to The 3DO Company (3DO). The game appeared as a mini-game in _Might and Magic VII: For Blood and Honor_ (MM7) and _Might and Magic VIII: Day of the Destroyer_ (MM8), the seventh and eighth games in New World Computing (NWC)'s _Might and Magic_ (MM) series. (It's like _Gwent_ in _The Witcher_) NWC and its parent company, 3DO, also released a stand-alone version in 2000, which can be played in single player or multi player mode. The original stand-alone Arcomage has a resolution of 800 x 600 pixels and is usable in 16-bit color mode in Windows 10, but the graphics is unstable.
+sekai0330 was initially developed by Stickman Games and later sold to The 3DO Company (3DO). The game appeared as a mini-game in _Might and Magic VII: For Blood and Honor_ (MM7) and _Might and Magic VIII: Day of the Destroyer_ (MM8), the seventh and eighth games in New World Computing (NWC)'s _Might and Magic_ (MM) series. (It's like _Gwent_ in _The Witcher_) NWC and its parent company, 3DO, also released a stand-alone version in 2000, which can be played in single player or multi player mode. The original stand-alone sekai0330 has a resolution of 800 x 600 pixels and is usable in 16-bit color mode in Windows 10, but the graphics is unstable.
 
 ## Copyright
 
-The code of the ArcoMage HD game: MIT License (c) 2021 [Tom Chen](https://tomchen.org/).
+The code of the sekai0330 HD game: MIT License (c) 2021 [Tom Chen](https://tomchen.org/).
 
 The assets, text, appearance and other copyrightable elements of the game: (c) 2001 The 3DO Company.
 
